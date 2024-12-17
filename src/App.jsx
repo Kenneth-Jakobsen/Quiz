@@ -74,7 +74,6 @@ function App() {
         console.error('Error fetching quiz data:', error);
       }
     };
-
     fetchQuizData();
   }, [fetchTrigger]); 
 
